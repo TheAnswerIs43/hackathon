@@ -4,5 +4,16 @@
 // Variables
 @import 'variables';
 
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+@import "admin";
+
+body {
+    font-family: "Inter UI", sans-serif;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+}

@@ -13,7 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    Hi {{ $name }}!
+                    Hi {{ $user['onboarding_completed'] }}!
                     {{ __('You are logged in!') }}
                 </div>
             </div>

@@ -21,7 +21,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'onboarding_completed'
+        'onboarding_completed',
+        'is_supplier'
     ];
 
     /**

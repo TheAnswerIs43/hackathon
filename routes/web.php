@@ -20,3 +20,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/profile', [App\Http\Controllers\HomeController::class, 'getProfile'])->name('profile');
+Route::get('/matches', [App\Http\Controllers\HomeController::class, 'getMatches'])->name('matches');
+Route::post('/finish-onboarding', [App\Http\Controllers\HomeController::class, 'finishOnboarding']);

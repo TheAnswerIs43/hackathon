@@ -1,0 +1,42 @@
+.sidebar-admin {
+    min-width: 224px;
+    width: 224px;
+    background-color: #013369;
+    .sidebar-link{
+        color:#fff !important;
+        text-decoration: none;
+        width: 94%;
+        height: 100%;
+        align-items: center;
+        margin: 0 auto;
+        display: flex;
+        &:hover {
+            color: #fff !important;
+        }
+        .icon-option{
+            text-align: center;
+            width: 50px;
+        }
+    }
+}
+
+.navbar{
+    background-color: #013369;
+    .nav-link{
+        color: #fff !important;
+        &:hover {
+            color: #fff !important;
+        }
+    }
+}
+
+.sidebar-option-container.active {
+    background-color: #023f81;
+}
+
+.content-admin {
+    flex: 1;
+    overflow-y: auto;
+    height: 100%;
+    padding: 1rem;
+}
