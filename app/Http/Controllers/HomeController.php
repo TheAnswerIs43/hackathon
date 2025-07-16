@@ -26,6 +26,9 @@ class HomeController extends Controller
     public function index()
     {
         $user = Auth::user();
+        if (!$user->onboarding_completed) {
+            return view('onboarding', ['name' => $user->name]);
+        }
         return view('home', ['name' => $user->name]);
     }
 }

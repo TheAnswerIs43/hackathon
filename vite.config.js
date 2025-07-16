@@ -6,6 +6,7 @@ export default defineConfig({
         host: '0.0.0.0', // 👈 required
         hmr: {
             host: 'localhost',
+            //port: 5173, // 👈 required
         },
     },
     plugins: [
@@ -13,6 +14,8 @@ export default defineConfig({
             input: [
                 'resources/sass/app.scss',
                 'resources/js/app.js',
+                'resources/js/onboarding.js',
+                'resources/js/profile.js',
             ],
             refresh: true,
         }),
